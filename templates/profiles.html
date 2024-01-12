@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profiles</title>
+</head>
+<body>
+{% for profile in profiles %}
+{{profile.id}}
+{{profile.first_name}}
+{{profile.last_name}}
+{{profile.age}}
+{{profile.hobby}}
+<br>
+{% endfor %}
+</body>
+</html>
